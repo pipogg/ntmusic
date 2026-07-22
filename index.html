@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NT Music Company - Tu música, tu crecimiento digital</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="logo.png" alt="NT Music Logo">
+                </div>
+                <nav class="nav-menu">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#como-funciona">Cómo funciona</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="header-buttons">
+                    <a href="app NT Music/app-debug.apk" class="btn-download" download>
+                        <i class="fab fa-android"></i>
+                        <span>Descargar App</span>
+                    </a>
+                    <a href="https://ntmusic.netlify.app/" class="btn-app" target="_blank">Iniciar sesión</a>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">NT Music App – Tu música, tu crecimiento digital.</h1>
+                <p class="hero-description">Sube tu link de Spotify o YouTube y nosotros nos encargamos del marketing optimizado para que tu canción llegue más lejos.</p>
+                <div class="hero-buttons">
+                    <a href="https://ntmusic.netlify.app/" class="btn-primary" target="_blank">Comenzar ahora</a>
+                    <a href="#como-funciona" class="btn-secondary">Conoce cómo funciona</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Qué es NT Music App? -->
+    <section class="what-is">
+        <div class="container">
+            <div class="what-is-content">
+                <div class="what-is-text">
+                    <h2>¿Qué es NT Music App?</h2>
+                    <p>La app oficial de NT Music permite a artistas urbanos enviar sus canciones directamente desde YouTube o Spotify para recibir análisis, campañas de marketing y distribución digital. Todo en un solo lugar.</p>
+                </div>
+                <div class="what-is-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-preview">
+                                <div class="app-header">NT Music</div>
+                                <div class="app-content">
+                                    <div class="input-field">
+                                        <span>🔗</span>
+                                        <input type="text" placeholder="Pega aquí el enlace de tu canción" disabled>
+                                    </div>
+                                    <div class="app-stats">
+                                        <div class="stat-item">
+                                            <span class="stat-number">+150%</span>
+                                            <span class="stat-label">Crecimiento</span>
+                                        </div>
+                                        <div class="stat-item">
+                                            <span class="stat-number">10K+</span>
+                                            <span class="stat-label">Reproducciones</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Cómo funciona? -->
+    <section id="como-funciona" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">¿Cómo funciona la app?</h2>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-icon">1️⃣</div>
+                    <h3>Sube tu link</h3>
+                    <p>YouTube o Spotify</p>
+                    <div class="step-visual">
+                        <div class="input-demo">
+                            <input type="text" placeholder="Pega aquí el enlace de tu canción" disabled>
+                        </div>
+                    </div>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">2️⃣</div>
+                    <h3>Analizamos el tema</h3>
+                    <p>La app identifica:</p>
+                    <ul class="step-list">
+                        <li>Audiencia</li>
+                        <li>Plataforma</li>
+                        <li>Potencial de crecimiento</li>
+                        <li>Tipo de campaña ideal</li>
+                    </ul>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">3️⃣</div>
+                    <h3>Te mostramos el plan de marketing</h3>
+                    <p>Opciones:</p>
+                    <ul class="step-list">
+                        <li>YouTube Ads</li>
+                        <li>Spotify Growth</li>
+                        <li>TikTok Challenge</li>
+                        <li>Instagram Reels Push</li>
+                    </ul>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">4️⃣</div>
+                    <h3>Aprobación y ejecución</h3>
+                    <p>El usuario confirma, paga (si aplica) y NT Music ejecuta todo.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-icon">5️⃣</div>
+                    <h3>Recibes reportes</h3>
+                    <p>Datos claros y fáciles de entender.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios que incluye</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <h3>Distribución digital</h3>
+                    <p>Llevamos tu música a todas las plataformas digitales principales</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Marketing musical profesional</h3>
+                    <p>Campañas optimizadas para maximizar el alcance de tus canciones</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Asesoría de imagen digital</h3>
+                    <p>Construye y fortalece tu presencia en redes sociales</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-tasks"></i></div>
+                    <h3>Gestión de solicitudes y agenda digital</h3>
+                    <p>Organizamos y gestionamos todas tus solicitudes de manera profesional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Por qué NT Music? -->
+    <section class="why-ntmusic">
+        <div class="container">
+            <h2 class="section-title">¿Por qué NT Music?</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">✓</div>
+                    <h3>Responsabilidad</h3>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">✓</div>
+                    <h3>Respeto</h3>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">✓</div>
+                    <h3>Sinceridad</h3>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">✓</div>
+                    <h3>Honestidad</h3>
+                </div>
+            </div>
+            <p class="values-text">Trabajamos de manera transparente, cuidando tu música y tu carrera con seriedad.</p>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros artistas</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"NT Music transformó mi carrera. Mis canciones ahora llegan a miles de personas que antes no me conocían."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <h4>OG Domi</h4>
+                            <span>Trap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"El marketing profesional de NT Music aumentó mis reproducciones en un 300%. Increíble trabajo."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <h4>Inprodivo23</h4>
+                            <span>Trap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Finalmente encontré una plataforma que entiende el negocio de la música urbana. Totalmente recomendado."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <h4>El Violento</h4>
+                            <span>Dembow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre NT Music -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre NT Music</h2>
+                    <p>NT Music nació para apoyar a los artistas urbanos que no conocen el funcionamiento profesional de las plataformas digitales. Desde nuestros inicios hemos ayudado a talentos a posicionarse y aumentar sus ingresos.</p>
+                    <p>Somos más que una plataforma, somos tu socio estratégico en el crecimiento de tu carrera musical.</p>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image">
+                        <div class="placeholder-image">NT Music</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="NT Music Logo">
+                    </div>
+                    <p>Tu música, tu crecimiento digital.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: contacto@ntmusic.com</p>
+                    <p>Teléfono: 849-205-4348</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <a href="https://ntmusic.netlify.app/" target="_blank">Usar la App</a>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#como-funciona">Cómo funciona</a>
+                    <a href="#servicios">Servicios</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NT Music. Todos los derechos reservados.</p>
+                <a href="#">Política de Privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
